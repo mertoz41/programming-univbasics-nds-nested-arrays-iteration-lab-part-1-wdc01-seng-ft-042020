@@ -8,7 +8,7 @@ while row_index < src.length do
   column_index = 0 
   while column_index < src[row_index] do 
     if src[row_index][column_index].even?
-      puts src[row_index][column_index]
+      p src[row_index][column_index]
     end 
     column_index += 1 
   end 
